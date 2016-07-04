@@ -17,7 +17,7 @@
 import json
 import sys
 
-from six import zip
+from six.moves import zip
 
 from pyspark import SparkContext
 from pyspark.sql.types import DataType, UserDefinedType, StructField, StructType, \
