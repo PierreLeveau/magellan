@@ -17,7 +17,7 @@
 import json
 import sys
 
-from itertools import izip
+from six import zip
 
 from pyspark import SparkContext
 from pyspark.sql.types import DataType, UserDefinedType, StructField, StructType, \
